@@ -1,0 +1,23 @@
+{
+    "name": "satonari/phpbbddd",
+    "description": "楽しいDDD",
+    "type": "project",
+    "license": "satonari",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Framework\\": "framework/"
+        }
+    },
+    "authors": [
+        {
+            "name": "satonari"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "firebase/php-jwt": "^6.10",
+        "vlucas/phpdotenv": "^5.6",
+        "nikic/fast-route": "^1.3"
+    }
+}
