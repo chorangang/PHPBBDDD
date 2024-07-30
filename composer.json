@@ -1,8 +1,8 @@
 {
-    "name": "satonari/phpbbddd",
+    "name": "choran/phpbbddd",
     "description": "楽しいDDD",
     "type": "project",
-    "license": "satonari",
+    "license": "choran",
     "autoload": {
         "psr-4": {
             "App\\": "src/",
@@ -11,7 +11,7 @@
     },
     "authors": [
         {
-            "name": "satonari"
+            "name": "choran"
         }
     ],
     "minimum-stability": "stable",
